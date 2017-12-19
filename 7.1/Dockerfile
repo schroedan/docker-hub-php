@@ -2,15 +2,10 @@ FROM php:7.1.12-alpine
 
 ENV XDEBUG_VERSION=2.5.5
 
-RUN apk add --no-cache --virtual .persistent-deps \
-    icu-dev
-
 RUN apk add --no-cache --virtual .build-deps \
-    $PHPIZE_DEPS
+    ${PHPIZE_DEPS}
 
 RUN set -xe \
-    && docker-php-ext-install \
-        intl \
     && pecl install \
         xdebug-${XDEBUG_VERSION} \
     && apk del .build-deps
