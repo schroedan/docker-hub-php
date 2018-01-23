@@ -1,4 +1,4 @@
-FROM php:7.2.0-alpine
+FROM php:7.2.1-alpine
 
 ENV XDEBUG_VERSION=2.6.0alpha1
 
