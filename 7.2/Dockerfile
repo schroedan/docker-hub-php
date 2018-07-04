@@ -1,6 +1,6 @@
-FROM php:7.2.1-alpine
+FROM php:7.2.7-alpine
 
-ENV XDEBUG_VERSION=2.6.0alpha1
+ENV XDEBUG_VERSION=2.6.0
 
 RUN apk add --no-cache --virtual .build-deps \
     ${PHPIZE_DEPS}
