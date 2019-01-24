@@ -4,7 +4,4 @@
 
 ## Supported Tags And Respective `Dockerfile` Links
 
-* `7.2`, `latest` ([Dockerfile](7.2/Dockerfile))
-* `7.1` ([Dockerfile](7.1/Dockerfile))
-* `7.0` ([Dockerfile](7.0/Dockerfile))
-* `5.6.36`, `5.6` ([Dockerfile](5.6/Dockerfile))
+* `5.6.40`, `5.6.36`, `5.6` ([Dockerfile](5.6/Dockerfile))
