@@ -1,6 +1,6 @@
 FROM php:7.3.4-alpine
 
-ENV XDEBUG_VERSION=2.7.0
+ENV XDEBUG_VERSION=2.7.1
 
 # hadolint ignore=SC2086,DL3018
 RUN set -xe \
